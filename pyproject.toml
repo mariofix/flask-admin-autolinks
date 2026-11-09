@@ -1,11 +1,14 @@
 [project]
 name = "flask-admin-autolinks"
-version = "0.1.0"
+version = "0.1.1"
 description = "Implements autolinks for related models in ModelView from Flask-Admin"
 readme = "README.md"
 authors = [{ name = "Mario Hernandez", email = "mariofix@proton.me" }]
 requires-python = ">=3.11"
 dependencies = ["flask-admin>=2.2.1"]
+
+[project.urls]
+repository = "https://github.com/mariofix/flask-admin-autolinks"
 
 [build-system]
 requires = ["hatchling"]
